@@ -1,0 +1,42 @@
+.heading-description{
+    gap: -10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    width: 100%;
+}
+
+.heading h1{
+    font-size: 4rem;
+}
+
+.description{
+    width: 90%;
+    font-size: 20px;
+    margin-right: -100px;
+}
+
+@media (max-width: 995px) {  /* Adjust the breakpoint as needed */
+    .heading-description {
+      flex-direction: column; /* Stack blocks vertically */
+      justify-content: space-between; /* Align top and bottom */
+    }
+  }
+
+  .bg-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .bg-image img{
+    align-items: center;
+    margin-top: 50px;
+    max-width:100%;
+    scale: 0.8;
+    border-radius: 20px;
+  }
+
+ 
